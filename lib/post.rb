@@ -20,5 +20,6 @@ class Post
     if self.author.name
       self.author.name
     end
+  end
 
 end
