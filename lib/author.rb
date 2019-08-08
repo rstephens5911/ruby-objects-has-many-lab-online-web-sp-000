@@ -14,10 +14,10 @@ class Author
     Post.all.select{|post| post.author == self}
     end
 
-    def add_post(post)
-      @posts << post
+  def add_post(post)
+    @posts << post
       post.author = self
-    end
+  end
 
 
 
