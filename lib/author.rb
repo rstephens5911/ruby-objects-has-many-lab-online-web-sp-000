@@ -18,7 +18,7 @@ class Author
       @post << post
       post.author = self
     end
-      
+
 
 
 
