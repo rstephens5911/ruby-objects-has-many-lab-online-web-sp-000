@@ -6,10 +6,6 @@ class Author
     @posts = []
   end
 
-  def new
-    @name
-  end
-
   def posts
     Post.all.select{|post| post.author == self}
     end
@@ -24,7 +20,8 @@ class Author
     title.author = self
   end
 
-
-
-
+  def self.post_count
+    Post.all.count
+  end
+    
 end
