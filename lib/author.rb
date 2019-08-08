@@ -5,6 +5,9 @@ class Author
     @name = name
   end
 
+  def new
+    @name
+  end
 
 
 
